@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <title>Weartake</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container-header">
+        <h1>Weartake</h1>
+        <nav class="navegacao">
+            <a id="home" href="">Todos</a>
+            <a href="">Acessórios</a>
+            <a href="">Calçados</a>
+            <a href="">Camisetas</a>
+        </nav>
+        </div>
+    </header>
+ 
+    <main class="container-principal">
+        <div class="subcontainer-principal">
+            <ul class="cards">
+            </ul>
+
+            <aside id="pesquisa-e-carrinho">
+                <form>
+                    <input type="text" id="input-pesquisa" name="pesquisa" placeholder="Digite aqui sua pesquisa">
+                    <button id="botao-pesquisa">Pesquisar</button>
+                </form>
+                <h4 class="cabecalho-carrinho">Carrinho de compras</h4>
+                <div id="carrinho">
+                    
+                    <ul id="lista-carrinho"></ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+    
+    
+
+</body>
+</html>
